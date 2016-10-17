@@ -1,0 +1,5 @@
+# Installation on CentOS 7
+yum install gcc python-devel python-pip -y
+easy_install -U python-setup
+pip install -U pip
+pip install -r requirement.txt
